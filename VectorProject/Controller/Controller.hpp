@@ -16,6 +16,7 @@ class Controller
 private:
 protected:
 public:
+    void start();
 };
 
 #endif /* Controller_hpp */
