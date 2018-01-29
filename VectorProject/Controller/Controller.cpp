@@ -12,8 +12,8 @@ using namespace std;
 
 Controller :: Controller()
 {
-    this->specialNumber = 17;
-    this->favoriteWord = "Chocolate";
+    this->favoriteNumber = 17;
+    this->foodWord = "Chocolate";
 }
 
 void Controller :: start()
@@ -23,7 +23,7 @@ void Controller :: start()
     ints.push_back(12);
     ints.push_back(247);
     ints.push_back(124);
-    ints.push_back(specialNumber);
+    ints.push_back(favoriteNumber);
     for (int i = 0; i < ints.size(); i++)
     {
         cout << "The value spot " << i + 1 << " is " << ints[i] << endl;
@@ -34,7 +34,7 @@ void Controller :: start()
     foods.push_back("Cinnamon Rolls");
     foods.push_back("Chicken");
     foods.push_back("Beans");
-    foods.push_back(favoriteWord);
+    foods.push_back(foodWord);
     for (int i = 0; i < foods.size(); i++)
     {
         cout << "The value spot " << i + 1 << " is " << foods[i] << endl;

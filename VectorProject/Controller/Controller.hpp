@@ -18,8 +18,8 @@ using namespace std;
 class Controller
 {
 private:
-    int specialNumber;
-    string favoriteWord;
+    int favoriteNumber;
+    string foodWord;
 protected:
 public:
     Controller();
