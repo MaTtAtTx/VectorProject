@@ -10,6 +10,8 @@
 #define Controller_hpp
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 class Controller
 {
